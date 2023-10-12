@@ -143,7 +143,13 @@ img:hover {
 }
 
 
-
+.modal-dialog{
+    display:flex;
+    justify-content: center;
+    width: 100vw;
+    height: 90vh;
+    align-items: center;   
+}
 
 .content{
     width: 1200px;
