@@ -2,11 +2,11 @@
 margin: 0%;
 padding: 0%;
 }
-
 .navbar{
-    width: 1200px;
+    width: 120px;
     height: 70px;
     margin: auto;
+    font-size: 18px;
 }
 
 ul li a:hover{
@@ -14,11 +14,11 @@ ul li a:hover{
 }
 .navbar{
     width: 1200px;
-    height: 75px;
+    height: 70px;
     margin: auto;
 }
 .card{
-    width: 30vw;
+    /* width: 30px; */
     display:inline-flex;
     min-height:40vh;
     position: relative;
@@ -26,14 +26,14 @@ ul li a:hover{
 }
 .banner img{
 width: 100vw;
-height: 35vw;
+height: 30vw;
 object-fit: cover;
 
 }
 .card img{
-  width: 100%;
-  height:auto;
-  
+  width: 28vw;
+  height:28vw;
+  object-fit: cover;
 }
 
 img:hover {
@@ -253,12 +253,13 @@ main{
 }
 .card{
     vertical-align: top;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 1rem 1rem 0.1rem 0.1rem #00000011;
+    width: 29vw;
+    
 }
-.card img{
-    width: 30vw;
-    height: 30vw;
-object-fit:cover;
-}
+
 
 .form input:focus{
     outline: none;
